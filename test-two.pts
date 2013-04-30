@@ -1,0 +1,88 @@
+define pentesttime{10:00,23:00}
+define pentestgoal{gain_privilege(192.168.2.3,root)}
+define pentesttarget{192.168.2.0 mask 24,192.168.3.0 mask 24,192.168.4.0 mask 24}
+
+time begintime
+time endtime
+time currenttime
+
+goal g1
+goal g2
+goal g3
+goal g4
+goal g5
+
+expectation exp1
+expectation exp2
+expectation exp3
+expectation exp4
+expectation exp5
+
+g1 = goal_privilege(192.168.4.5, user)
+g2 = goal_privilege(192.168.3.4, administrator)
+g3 = goal_privilege(192.168.2.3, root)
+g4 = goal_privilege(192.168.4.5, user)
+g5 = goal_privilege(192.168.3.5, user)
+
+exp1 = expecte_privilege(192.168.4.5, user)
+exp2 = expecte_privilege(192.168.3.4, administrator)
+exp3 = expecte_privilege(192.168.2.3, root)
+exp4 = expecte_privilege(192.168.4.5, user)
+exp5 = expecte_privilege(192.168.3.5, user)
+
+begintime = 10:00
+endtime = 23:00
+
+path firstpath
+{
+	currenttime = now
+	if( begintime <= currenttime && currenttime < endtime) then
+	if(connect(192.168.6.2,192.168.4.5, 80)) then
+	use overflow exploit cve-2004-1037 for g1
+	penetrate 192.168.4.5 expect exp1 out result
+	endif
+	endif
+
+	currenttime = now
+	if (result == success && begintime <= currenttime  && currenttime < endtime) then
+	if(connect(192.168.4.5,192.168.3.4, 443)&&own(192.168.4.3,user))then
+	use overflow exploit cve-2008-4250 for g2
+	penetrate 192.168.3.4 expect exp2 out result
+	endif
+	endif
+
+	currenttime = now
+	if(result == success && begintime <= currenttime && currenttime < endtime) then
+	if(connect(192.168.3.4,192.168.2.3, 2100)&&own(192.168.3.4,administrator)) then
+	use overflow exploit cve-2007-5423 for g3
+	penetrate 192.168.2.3 expect exp3 out result
+	endif
+	endif
+}
+
+path secondpath
+{
+	currenttime = now
+	if( begintime <= currenttime && currenttime < endtime) then
+	if(connect(192.168.6.2,192.168.4.5, 3078)) then
+	use overflow exploit cve-2004-2687 for g4
+	penetrate 192.168.4.5 expect exp4 out result
+	endif
+	endif
+
+	currenttime = now
+	if (result == success && begintime <= currenttime  && currenttime < endtime) then
+	if(connect(192.168.4.5,192.168.3.5, 1078)&&own(192.168.4.5,user))then
+	use overflow exploit cve-2003-0352 for g5
+	penetrate 192.168.3.5 expect exp5 out result
+	endif
+	endif
+
+	currenttime = now
+	if(result == success && begintime <= currenttime && currenttime < endtime) then
+	if(connect(192.168.3.5,192.168.2.3, 2100)&&own(192.168.3.5,user)) then
+	use overflow exploit cve-2007-5423 for g3
+	penetrate 192.168.2.3 expect exp3 out result
+	endif
+	endif
+}

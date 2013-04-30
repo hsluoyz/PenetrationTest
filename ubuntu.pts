@@ -1,0 +1,82 @@
+define pentesttime{00:00,23:58}
+define pentestgoal{gain_privilege(192.168.3.3,root)}
+define pentesttarget{192.168.3.0 mask 24}
+time begintime
+time endtime
+time currenttime
+goal g1
+expectation exp1
+
+g1 = goal_privilege(192.168.3.3, user)
+
+exp1 = expecte_privilege(192.168.3.3, user)
+
+begintime = 20:00
+endtime = 23:58
+path firstpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.6.2,192.168.3.3, 80)) then
+use overflow exploit cve-2004-2687 for g1
+penetrate 192.168.3.3 expect exp1 out result
+endif
+endif
+}
+
+path secondpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.6.2,192.168.3.3, 3078)) then
+use overflow exploit cve-2009-3548 for g1
+penetrate 192.168.3.3 expect exp1 out result
+endif
+endif
+}
+
+
+path fourthpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.6.2,192.168.3.3, 3078)) then
+use overflow exploit cve-2007-5423 for g1
+penetrate 192.168.3.3 expect exp1 out result
+endif
+endif}
+
+path fifthpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.6.2,192.168.3.3, 3078)) then
+use overflow exploit cve-2005-2877 for g1
+penetrate 192.168.3.3 expect exp1 out result
+endif
+endif}
+
+path sixthpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.6.2,192.168.3.3, 3078)) then
+use overflow exploit cve-2004-1037 for g1
+penetrate 192.168.3.3 expect exp1 out result
+endif
+endif
+}
+
+path sevenpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.6.2,192.168.3.3, 3078)) then
+use overflow exploit cve-1999-0520 for g1
+penetrate 192.168.3.3 expect exp1 out result
+endif
+endif
+}
+
+
+

@@ -1,0 +1,98 @@
+define pentesttime{20:00,23:00}
+define pentestgoal{gain_privilege(192.168.2.4,user)}
+define pentesttarget{192.168.2.0 mask 24}
+time begintime
+time endtime
+time currenttime
+goal g1
+expectation exp1
+
+g1 = goal_privilege(192.168.2.4, user)
+
+exp1 = expecte_privilege(192.168.2.4, user)
+
+begintime = 20:00
+endtime = 23:00
+path firstpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(10.2.1.11,192.168.1.74, 445)) then
+use overflow exploit cve-2006-3439 for g1
+penetrate 192.168.1.74 expect exp1 out result
+endif
+endif
+}
+
+path secondpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.1.246,192.168.1.74, 445)) then
+use overflow exploit cve-2003-0352 for g1
+penetrate 192.168.1.74 expect exp1 out result
+endif
+endif}
+
+path thirdpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.1.246,192.168.1.74, 445)) then
+use overflow exploit cve-2008-4250 for g1
+penetrate 192.168.1.74 expect exp1 out result
+endif
+endif}
+
+path fourthpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.1.246,192.168.1.74, 445)) then
+use overflow exploit cve-2004-1080 for g1
+penetrate 192.168.1.74 expect exp1 out result
+endif
+endif}
+
+path fifthpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.1.246,192.168.1.74, 445)) then
+use overflow exploit cve-2010-0249 for g1
+penetrate 192.168.1.74 expect exp1 out result
+endif
+endif}
+
+path sixthpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.1.246,192.168.1.74, 445)) then
+use overflow exploit cve-2010-0103 for g1
+penetrate 192.168.1.74 expect exp1 out result
+endif
+endif}
+
+path sevenpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.1.246,192.168.1.74, 445)) then
+use overflow exploit cve-2005-4267 for g1
+penetrate 192.168.1.74 expect exp1 out result
+endif
+endif}
+
+path eighthpath
+{
+currenttime = now
+if( begintime <= currenttime && currenttime < endtime) then
+if(connect(192.168.1.246,192.168.1.74, 445)) then
+use overflow exploit cve-2008-4250 for g1
+penetrate 192.168.1.74 expect exp1 out result
+endif
+endif}
+
+
+
